@@ -145,6 +145,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /**
+         *  Flysap Service Providers...
+         */
+        Flysap\Application\ApplicationServiceProvider::class
+
     ],
 
     /*
