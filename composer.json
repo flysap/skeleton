@@ -24,6 +24,18 @@
       {
         "type": "git",
         "url" : "git@github.com:flysap/table-manager.git"
+      },
+      {
+        "type": "git",
+        "url" : "git@github.com:flysap/form-builder.git"
+      },
+      {
+        "type": "git",
+        "url" : "git@github.com:flysap/theme-manager.git"
+      },
+      {
+        "type": "git",
+        "url" : "git@github.com:flysap/file-manager.git"
       }
     ],
     "require": {
@@ -34,6 +46,9 @@
         "flysap/application": "dev-master",
         "flysap/module-manager": "dev-master",
         "flysap/table-manager": "dev-master",
+        "flysap/theme-manager": "dev-master",
+        "flysap/file-manager": "dev-master",
+        "flysap/form-builder": "dev-master",
         "flysap/users": "dev-master",
         "flysap/support": "dev-master",
         "fzaninotto/faker": "~1.4",
