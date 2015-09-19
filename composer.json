@@ -20,6 +20,10 @@
       {
         "type": "git",
         "url" : "git@github.com:flysap/support.git"
+      },
+      {
+        "type": "git",
+        "url" : "git@github.com:flysap/table-manager.git"
       }
     ],
     "require": {
@@ -29,6 +33,7 @@
     "require-dev": {
         "flysap/application": "dev-master",
         "flysap/module-manager": "dev-master",
+        "flysap/table-manager": "dev-master",
         "flysap/users": "dev-master",
         "flysap/support": "dev-master",
         "fzaninotto/faker": "~1.4",
