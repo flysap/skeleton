@@ -15,6 +15,10 @@
       },
       {
         "type": "git",
+        "url": "https://github.com/flysap/scaffold-generator"
+      },
+      {
+        "type": "git",
         "url" : "git@github.com:flysap/module-manager.git"
       },
       {
@@ -72,9 +76,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*"
-    },
-    "require-dev": {
+        "laravel/framework": "5.1.*",
         "flysap/application": "dev-master",
         "flysap/scaffold-generator": "dev-master",
         "flysap/module-manager": "dev-master",
@@ -83,7 +85,9 @@
         "flysap/file-manager": "dev-master",
         "flysap/form-builder": "dev-master",
         "flysap/users": "dev-master",
-        "flysap/support": "dev-master",
+        "flysap/support": "dev-master"
+    },
+    "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~4.0",
