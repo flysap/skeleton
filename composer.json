@@ -11,6 +11,10 @@
       },
       {
         "type": "git",
+        "url": "https://github.com/flysap/scaffold"
+      },
+      {
+        "type": "git",
         "url" : "git@github.com:flysap/module-manager.git"
       },
       {
@@ -36,6 +40,10 @@
       {
         "type": "git",
         "url" : "git@github.com:flysap/file-manager.git"
+      },
+      {
+        "type": "git",
+        "url" : "git@github.com:parfumix/data-exporter.git"
       }
     ],
     "require": {
