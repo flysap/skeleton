@@ -72,6 +72,22 @@
       {
         "type": "git",
         "url" : "git@github.com:parfumix/eloquent-sortable.git"
+      },
+      {
+        "type": "git",
+        "url": "git@github.com:parfumix/laravel-image-uploader.git"
+      },
+      {
+        "type": "git",
+        "url": "git@github.com:parfumix/eloquent-translatable.git"
+      },
+      {
+        "type": "git",
+        "url": "git@github.com:parfumix/laravel-localization.git"
+      },
+      {
+        "type": "git",
+        "url": "git@github.com:parfumix/laravel-translator.git"
       }
     ],
     "require": {
