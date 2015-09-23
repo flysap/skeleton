@@ -44,6 +44,30 @@
       {
         "type": "git",
         "url" : "git@github.com:parfumix/data-exporter.git"
+      },
+      {
+        "type": "git",
+        "url" : "git@github.com:parfumix/data-exporter.git"
+      },
+      {
+        "type": "git",
+        "url" : "git@github.com:parfumix/laravel-meta.git"
+      },
+      {
+        "type": "git",
+        "url" : "git@github.com:parfumix/eloquent-meta.git"
+      },
+      {
+        "type": "git",
+        "url" : "git@github.com:parfumix/eloquent-imageable.git"
+      },
+      {
+        "type": "git",
+        "url" : "git@github.com:parfumix/laravel-image-uploader.git"
+      },
+      {
+        "type": "git",
+        "url" : "git@github.com:parfumix/eloquent-sortable.git"
       }
     ],
     "require": {
