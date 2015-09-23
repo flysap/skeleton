@@ -148,8 +148,8 @@ return [
         /**
          *  Flysap Service Providers...
          */
-        Flysap\Application\ApplicationServiceProvider::class
-
+        Flysap\Application\ApplicationServiceProvider::class,
+        Flysap\ScaffoldGenerator\GeneratorServiceProvider::class
     ],
 
     /*
