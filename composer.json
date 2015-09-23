@@ -76,6 +76,7 @@
     },
     "require-dev": {
         "flysap/application": "dev-master",
+        "flysap/scaffold-generator": "dev-master",
         "flysap/module-manager": "dev-master",
         "flysap/table-manager": "dev-master",
         "flysap/theme-manager": "dev-master",
