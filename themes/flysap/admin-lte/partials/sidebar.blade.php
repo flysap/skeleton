@@ -7,10 +7,10 @@
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel">
             <div class="pull-left image">
-                <img src="/bower_components/admin-lte/dist/img/user2-160x160.jpg" class="img-circle" alt="{{Flysap\Application\current_username()}}" />
+                <img src="/bower_components/adminLTE/dist/img/user2-160x160.jpg" class="img-circle" alt="{{Flysap\Application\current_username()}}" />
             </div>
             <div class="pull-left info">
-                <p>{{\Flysap\Application\current_username()}}</p>
+                <p>{{Flysap\Application\current_username()}}</p>
                 <!-- Status -->
                 <a href="#"><i class="fa fa-circle text-success"></i>{{trans('Online')}}</a>
             </div>
@@ -19,7 +19,7 @@
         <!-- search form (Optional) -->
         <form action="#" method="get" class="sidebar-form">
             <div class="input-group">
-                <input type="text" name="q" class="form-control" placeholder="Search..." />
+                <input type="text" name="q" class="form-control" placeholder="{{trans('Search')}}..." />
               <span class="input-group-btn">
                 <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
               </span>
@@ -31,7 +31,7 @@
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
 
-            <li class="header">HEADER</li>
+            <li class="header">{{trans('MENU')}}</li>
             <!-- Optionally, you can add icons to the links -->
 
             @foreach(Flysap\Application\get_menu_sections() as $section => $menus)

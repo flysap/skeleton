@@ -14,8 +14,7 @@
 
     <!-- Main content -->
     <section class="content">
-
+        {!! Widget::render() !!}
         <!-- Your Page Content Here -->
-
     </section><!-- /.content -->
 @endsection
