@@ -1,0 +1,24 @@
+{
+  "name": "flysap",
+  "homepage": "https://github.com/parfumix",
+  "authors": [
+    "Radu <radu.bordei89@gmail.com>"
+  ],
+  "description": "CMF",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AdminLTE": "admin-lte#~2.3.0",
+    "jquery": "~2.1.4",
+    "jquery-ui": "jqueryui#~1.11.4"
+  }
+}
