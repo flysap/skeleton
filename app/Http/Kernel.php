@@ -2,6 +2,8 @@
 
 namespace App\Http;
 
+use Flysap\Application\Middlewares\PermissionsMiddleware;
+use Flysap\Application\Middlewares\RoleMiddleware;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
@@ -29,5 +31,7 @@ class Kernel extends HttpKernel
         'auth' => \App\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
+        'role' => RoleMiddleware::class,
+        'permissions' => PermissionsMiddleware::class,
     ];
 }
