@@ -52,6 +52,10 @@
     },
     {
       "type": "git",
+      "url": "https://github.com/parfumix/laravel-shop"
+    },
+    {
+      "type": "git",
       "url": "https://github.com/parfumix/table-manager"
     },
     {
@@ -135,6 +139,7 @@
     "parfumix/eloquent-commentable": "dev-master",
     "parfumix/laravel-analytics": "dev-master",
     "parfumix/laravel-settings": "dev-master",
+    "parfumix/laravel-shop": "dev-master",
     "parfumix/laravel-push-relations": "dev-master",
     "parfumix/laravel-likeable": "dev-master",
     "parfumix/laravel-image-uploader": "dev-master",
